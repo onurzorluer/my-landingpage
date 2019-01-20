@@ -40,7 +40,7 @@ class LandingPage extends Component {
             <div>
                 <Typed className="LandingPage-typed"
                 strings={["Welcome!",
-                          "Here you can find my portfolio!",
+                          "Here you can find my projects!",
                           "Here you can find my curriculum vitae!"
                           ]}
                     typeSpeed={60}

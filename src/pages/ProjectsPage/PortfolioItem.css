@@ -34,7 +34,7 @@
   .portfolio-item__desc {
     display: flex;
     flex-direction: column;
-    padding: 0.2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 6rem 2rem;
     font-size: calc(9px + 0.6vw);
     font-weight: 200;
     text-align: center;
@@ -77,8 +77,8 @@
   @media screen and (max-width: 992px) {
     .portfolio-item {
       border-radius: 3px;
-      height: 14rem;
-      width: 80%;
+      height: 18rem;
+      width: 90%;
     }
   
     .portfolio-item__icon {
@@ -86,7 +86,7 @@
       height: 20px;
     }
     .portfolio-item__desc {
-      margin-top: -30px;
+      margin-top: -50px;
     }
   }
   
