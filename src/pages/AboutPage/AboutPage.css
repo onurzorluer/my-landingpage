@@ -1,0 +1,171 @@
+.AboutPage {
+    background-color:rgb(44, 44, 44);
+    max-height: 100%;
+    min-height: 50vh;
+    max-width: 100%;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.AboutPage-items {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+  
+  .AboutPage-arrowIcon {
+    margin-top: 0px;
+    height: 0px;
+    width: 0px;
+    margin-bottom: 0vw;
+    color: #ffffff;
+  }
+  
+  .AboutPage-arrowIcon:hover {
+    color: transparent;
+  }
+
+  .AboutPage-photo {
+    height: 20vmin;
+    border-radius: 50%;
+    margin-top: 5vh;
+    margin-bottom: 2vw;
+  }
+
+  .AboutPage-header {
+      width: 80%;
+      margin: 0 auto;
+      max-height: 100%;
+      position: relative;
+      z-index: 20;
+  }
+  
+  .AboutPage-info {
+    padding: 3em 0;
+  } 
+  
+  .AboutPage-title {
+    min-height: 5vh;
+    font-size: calc(16px + 3vw);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.1;
+    font-weight: 400;
+    color: white;
+  }
+  
+  .AboutPage-infoText {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1.5rem 1.5rem;
+    margin-top: 1rem;
+    width: 70%;
+    max-height: 50%;
+    font-weight: 300;
+    font-size: calc(10px + 0.8vw);
+    line-height: 1.7;
+    color: white;
+    justify-content: center;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+  }
+
+  .AboutPage-downloadText {
+    font-weight: 600;
+    font-size: calc(10px + 0.8vw);
+    color: white;
+  }
+
+  .bold {
+    font-weight: 500;
+  }
+  
+  .highlight {
+    display: inline-block;
+    padding: 0 10px;
+    color: black;
+  }
+  
+  
+  ::selection {
+    text-shadow: none;
+    color: #000;
+    background: #ffe54c;
+  }
+
+  .AboutPage-downloadIcon {
+    margin-top: 1vw;
+    flex: 0 1 auto;
+    flex-direction: column;
+  }
+
+  .AboutPage-downloadIcon:hover {
+    animation-name: icon-shake;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+  }
+
+  @media screen and (max-width: 992px) {
+    .AboutPage {
+      min-height: 100vh;
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .AboutPage-downloadIcon {
+      padding-top: 5vw;
+      height: 25px;
+      width: 25px;
+      flex: 0 1 auto;
+      flex-direction: column;
+    }
+    .AboutPage-items {
+      display: flex;
+      flex: 0 1 auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .AboutPage-photo {
+      height: 25vmin;
+      border-radius: 50%;
+      margin-top: 5vh;
+      margin-bottom: 2vw;
+    }
+
+    .AboutPage-infoText {
+      font-family: 'Raleway', sans-serif;
+      width: 70%;
+      max-height: 50%;
+      font-weight: 300;
+      font-size: calc(10px + 0.6vw);
+      line-height: 1.7;
+      color: white;
+      justify-content: center;
+      display: flex;
+      flex: 0 1 auto;
+      flex-direction: column;
+    }
+
+    .AboutPage-arrowIcon {
+      margin-top: 50px;
+      height: 35px;
+      width: 35px;
+      margin-bottom: 2vw;
+      color: #ffffff;
+    }
+
+    .AboutPage-arrowIcon:hover {
+      color: black;
+    }
+  }
+  

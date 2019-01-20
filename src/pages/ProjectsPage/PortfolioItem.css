@@ -1,0 +1,109 @@
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 1 1;
+  margin: 0.5rem 0;
+  max-width: 100%;
+  transition: box-shadow 0.25s;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+  0 2px 1px -2px rgba(0, 0, 0, 0.2);
+  width: 24rem;
+  height: 16rem;
+  margin: 1rem 1rem;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+}
+
+.portfolio-item:hover {
+    animation-name: item-shake;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+  }
+
+  .portfolio-item__title {
+    flex: 1;
+    padding: 1rem 1.5rem;
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .portfolio-item__desc {
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem 2rem 2rem 2rem;
+    font-size: calc(9px + 0.6vw);
+    font-weight: 200;
+    text-align: center;
+    line-height: 1.25rem;
+    margin-top: -50px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .portfolio-item__icon {
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 0.25rem;
+    color: black;
+  }
+
+  .portfolio-item__links {
+    padding: 0 0 1.25rem 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: white;
+  }
+  .portfolio-item__links a {
+      padding-bottom: 0.25rem;
+      border-bottom: 2px solid transparent;
+  } 
+      
+  .portfolio-item__links a:hover {
+      cursor: pointer;
+      border-bottom: 2px solid inherit;
+  }
+
+  .underline {
+    background-image: linear-gradient(to top, #00bcd4 10%, transparent 10%);
+  }
+
+  @media screen and (max-width: 992px) {
+    .portfolio-item {
+      border-radius: 3px;
+      height: 14rem;
+      width: 80%;
+    }
+  
+    .portfolio-item__icon {
+      width: 20px;
+      height: 20px;
+    }
+    .portfolio-item__desc {
+      margin-top: -30px;
+    }
+  }
+  
+  @keyframes item-shake {
+    0% {
+      transform: translateY(0px);
+    }
+    25% {
+      transform: translateY(-8px);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+    75% {
+      transform: translateY(-4px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
