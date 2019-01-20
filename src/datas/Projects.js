@@ -26,7 +26,7 @@ export default [
   {
     header: 'developer-portfolio',
     description: 'This Web Site :). Developed with React.js.',
-    githubLink: 'asd',
+    githubLink: 'https://github.com/onurzorluer/developer-portfolio',
   },
   {
     header: 'Interactive Multimedia Application for University',
