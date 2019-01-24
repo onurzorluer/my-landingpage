@@ -20,7 +20,9 @@ class Footer extends Component {
               <FontAwesome.FaArrowCircleUp className="Footer-arrowIcon"/>
           </Link> 
           <div className="Footer-infoText">
-            © Copyright {new Date().getFullYear()} Onur Zorluer
+            © Copyright {new Date().getFullYear()} Made with ❤️ by Onur Zorluer
+          </div>
+          <div className="Footer-infoText">
           </div>
           </div>        
         </div>
