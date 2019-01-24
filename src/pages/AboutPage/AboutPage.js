@@ -24,9 +24,9 @@ class AboutPage extends Component {
               </div>
             <div>
               <Link
-              activeClass="active"
+              activeClass="about"
               to="portfolio"
-              spy={true}
+              spy={false}
               smooth={true}
               offset={0}
               duration= {700}>   

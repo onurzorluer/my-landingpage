@@ -50,9 +50,9 @@ class LandingPage extends Component {
             </div>
             <div>
             <Link
-            activeClass="active"
+            activeClass="home"
             to="about"
-            spy={true}
+            spy={false}
             smooth={true}
             offset={20}
             duration= {500}> 

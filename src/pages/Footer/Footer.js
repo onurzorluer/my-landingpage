@@ -11,9 +11,9 @@ class Footer extends Component {
         <div className="Footer">
           <div className="Footer-items">
           <Link
-            activeClass="active"
+            activeClass="footer"
             to="home"
-            spy={true}
+            spy={false}
             smooth={true}
             offset={-70}
             duration= {700}>         
