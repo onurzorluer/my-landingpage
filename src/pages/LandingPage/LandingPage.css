@@ -92,8 +92,8 @@
   color: rgb(44, 44, 44);
 }
 
-.underline {
-  background-image: linear-gradient(to top, #00bcd4 10%, transparent 10%);
+.underlineLanding {
+  background-image: linear-gradient(to top, #ff884d 10%, transparent 10%);
 }
 
 .highlight {
@@ -102,8 +102,13 @@
   color: black;
 }
 
-.highlight.yellow {
+.highlight.blue {
   background: #00bcd4;
+  color: rgb(250, 250, 250);
+}
+
+.highlight.yellow {
+  background: #ff884d;
   color: rgb(250, 250, 250);
 }
 

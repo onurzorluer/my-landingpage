@@ -15,15 +15,17 @@ class LandingPage extends Component {
             <div className="LandingPage-info">       
               <div className="LandingPage-title">
                 Hi, I am Onur Zorluer,<br />
-                Frontend <span className="highlight yellow">Developer</span> <br />
+                Frontend <span className="highlight blue">Developer</span> <br />
+                and
+                Security <span className="highlight yellow">Engineer</span> <br />
                 based in Izmir, Turkey.
               </div>
             </div>
           </header>
             <div className="LandingPage-infoText">
-            <p>Let's <span className="underline">start scrolling</span> and learn more <span className="underline">about me.</span>
+            <p>Let's <span className="underlineLanding">start following</span> and learn more <span className="underline">about me.</span>
                 <br /> For collaboration or questions; 
-                hi@onurzorluer.com
+                zorlueronur@gmail.com
               </p>
             </div>
             <div className="LandingPage-tagline">
@@ -39,25 +41,15 @@ class LandingPage extends Component {
             </div>
             <div>
                 <Typed className="LandingPage-typed"
-                strings={["Welcome!",
+                strings={[ "“Knowing others is intelligence; knowing yourself is true wisdom.” – Lao Tzu"
+                  /* "Welcome!",
                           "Here you can find my projects!",
-                          "Here you can find my curriculum vitae!"
+                          "Here you can find my curriculum vitae!" */
                           ]}
                     typeSpeed={60}
                     backSpeed={50} 
                     loop >
                 </Typed>
-            </div>
-            <div>
-            <Link
-            activeClass="home"
-            to="about"
-            spy={false}
-            smooth={true}
-            offset={20}
-            duration= {500}> 
-              <FontAwesome.FaArrowCircleDown className="LandingPage-arrowIcon" size='calc(30px + 2vw)'/>
-            </Link>
             </div>
         </div>
       </section>
