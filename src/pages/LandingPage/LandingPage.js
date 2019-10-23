@@ -23,7 +23,7 @@ class LandingPage extends Component {
             </div>
           </header>
             <div className="LandingPage-infoText">
-            <p>Let's <span className="underlineLanding">start following</span> and learn more <span className="underline">about me.</span>
+            <p>Feel free to <span className="underlineLanding">follow me</span> on my social media profiles below and learn more <span className="underline">about me.</span>
                 <br /> For collaboration or questions; 
                 zorlueronur@gmail.com
               </p>
@@ -41,7 +41,7 @@ class LandingPage extends Component {
             </div>
             <div>
                 <Typed className="LandingPage-typed"
-                strings={[ "“Knowing others is intelligence; knowing yourself is true wisdom.” – Lao Tzu"
+                strings={[ "“Knowing others is intelligence; knowing yourself is true wisdom.”–Lao Tzu"
                   /* "Welcome!",
                           "Here you can find my projects!",
                           "Here you can find my curriculum vitae!" */
