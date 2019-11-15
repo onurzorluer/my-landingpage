@@ -46,8 +46,8 @@ class LandingPage extends Component {
                           "Here you can find my projects!",
                           "Here you can find my curriculum vitae!" */
                           ]}
-                    typeSpeed={60}
-                    backSpeed={50} 
+                    typeSpeed={50}
+                    backSpeed={40} 
                     loop >
                 </Typed>
             </div>
