@@ -15,8 +15,6 @@ class LandingPage extends Component {
             <div className="LandingPage-info">       
               <div className="LandingPage-title">
                 Hi, I am Onur Zorluer,<br />
-                Frontend <span className="highlight blue">Developer</span> <br />
-                and
                 Security <span className="highlight yellow">Engineer</span> <br />
                 based in Izmir, Turkey.
               </div>
@@ -41,13 +39,13 @@ class LandingPage extends Component {
             </div>
             <div>
                 <Typed className="LandingPage-typed"
-                strings={[ "“Knowing others is intelligence; knowing yourself is true wisdom.”–Lao Tzu"
+                strings={[ "“If I had eight hours to chop down a tree, I’d spend the first six of them sharpening my axe.” – Abraham Lincoln"
                   /* "Welcome!",
                           "Here you can find my projects!",
                           "Here you can find my curriculum vitae!" */
                           ]}
-                    typeSpeed={50}
-                    backSpeed={40} 
+                    typeSpeed={40}
+                    backSpeed={50} 
                     loop >
                 </Typed>
             </div>
