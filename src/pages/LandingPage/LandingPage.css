@@ -122,6 +122,9 @@
   .LandingPage {
     max-width: 100%;
   }
+  .LandingPage-typed {
+    display: none;
+  }
 }
 
 @keyframes icon-shake {
