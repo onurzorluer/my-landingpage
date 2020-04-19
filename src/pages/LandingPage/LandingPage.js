@@ -28,13 +28,13 @@ class LandingPage extends Component {
             </div>
             <div className="LandingPage-tagline">
               <a target="_blank" rel="noopener noreferrer" href="https://github.com/onurzorluer">         
-                <FontAwesome.FaGithubSquare className="LandingPage-socialIcon" size='calc(30px + 2vw)' />
+                <FontAwesome.FaGithubSquare className="LandingPage-socialIcon" />
               </a>
               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/onurzorluer">
-                <FontAwesome.FaLinkedinSquare className="LandingPage-socialIcon" size='calc(30px + 2vw)' />
+                <FontAwesome.FaLinkedinSquare className="LandingPage-socialIcon" />
               </a>
               <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/onur_zorluer">
-                <FontAwesome.FaTwitterSquare className="LandingPage-socialIcon" size='calc(30px + 2vw)' /> 
+                <FontAwesome.FaTwitterSquare className="LandingPage-socialIcon" /> 
               </a>
             </div>
             <div>

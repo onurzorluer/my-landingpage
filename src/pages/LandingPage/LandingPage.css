@@ -28,9 +28,9 @@
 }
 
 .LandingPage-socialIcon {
-  margin-right: 2vw;
-  margin-left: 2vw;
+  margin: 2vw;
   color: rgb(44, 44, 44);
+  font-size: 5vmax;
 }
 
 .LandingPage-socialIcon:hover {
