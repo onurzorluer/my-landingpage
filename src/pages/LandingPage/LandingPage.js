@@ -15,7 +15,7 @@ class LandingPage extends Component {
             <div className="LandingPage-info">       
               <div className="LandingPage-title">
                 Hi, I am Onur Zorluer,<br />
-                Computer <span className="highlight yellow">Engineer</span> <br />
+                Computer <span className="highlight blue">Engineer</span> <br />
                 based in Turkey.
               </div>
             </div>
